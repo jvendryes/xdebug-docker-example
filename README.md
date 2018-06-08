@@ -18,7 +18,7 @@ If you are using `docker-compose`, you simply need to run `docker-compose up -d`
 ### PhpStorm 2018
 #### Configure your app server
 ![PhpStorm Servers](docs/img/phpstorm-app-server.png)
-- Notice that I've setup a fake application URL (xdebug-example.tld), set to the port my app runs on (80 in my case, defined in my `docker-compose.yml` file) and that it should expect Xdebug as the debugger
+- I've setup a fake app URL (xdebug-example.tld), set to the port my app runs on (80 in my case, defined in my `docker-compose.yml` file) and that it should expect Xdebug as the debugger
 - Make sure you have a server defined (Languages & Frameworks > PHP > Servers) and that you've mapped the paths between your local files to your remote files
 
 #### Set your Xdebug configurations
@@ -45,6 +45,7 @@ If you are using `docker-compose`, you simply need to run `docker-compose up -d`
 #### Start debugging
 - At this point everything should be configured
 - Click the "Start Listening for for PHP Debug Connections", you should get a green light
+![PhpStorm Start Listening](docs/img/phpstorm-start-listening.png)
 - Add a breakpoint to your code in PHP and run your app
 
 ## Other IDEs
