@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    container_name: "xdebug-example"
+    build: .
+    volumes:
+      - ./src:/var/www/html/
+    ports:
+      - "80"
