@@ -48,7 +48,10 @@ If you are using `docker-compose`, you simply need to run `docker-compose up -d`
 ![PhpStorm Start Listening](docs/img/phpstorm-start-listening.png)
 - Add a breakpoint to your code in PHP and run your app
 
-## Other IDEs
+## Other IDEs/Editors
+- [Visual Studio Code for Mac](http://ramkulkarni.com/blog/setting-up-and-debugging-php7-in-docker/)
+- [Vim](https://github.com/vim-vdebug/vdebug)
+- [Sublime Text](https://github.com/martomo/SublimeTextXdebug)
 - Feel free to contribute!
 
 ## References
